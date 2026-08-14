@@ -1,0 +1,71 @@
+# ===== 构建产物 =====
+Debug/
+Release/
+build/
+Objects/
+Listings/
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.map
+*.map.old
+*.map.view
+*.lst
+*.crf
+*.lnp
+*.htm
+*.dep
+*.a
+*.i
+*.pyc
+__pycache__/
+*.build_log.htm
+uv4_build.log
+
+# ===== Keil MDK 输出目录（可重新构建生成）=====
+**/MDK-ARM/OTA/
+**/MDK-ARM/OTA_Bootloader/
+**/MDK-ARM/build/
+**/.cmsis/
+**/RTE/
+
+# ===== Keil MDK 用户文件 =====
+*.uvguix.*
+*.bak
+*.scr
+JLinkLog.txt
+
+# ===== IAR EWARM =====
+settings/
+*.pbd
+
+# ===== STM32CubeIDE / Eclipse =====
+.settings/
+*.launch
+
+# ===== STM32CubeMX 生成 =====
+.mxproject
+
+# ===== VS Code / IDE 杂项 =====
+.vscode/
+.idea/
+*.user
+*.swp
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+
+# ===== 本地工具/代理元数据（不入库）=====
+.reasonix/
+.claude/
+.codex/
+.agents/
+
+# ===== 根目录临时/分析文件 =====
+tmp/
+ui_nav_disasm.txt
+ui_nav_preprocessed.i
+esp8266_backup_1MB.bin
